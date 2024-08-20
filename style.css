@@ -1,0 +1,1289 @@
+
+
+        
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+html,body {
+     overflow-x: hidden;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body,p,a,li {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Public Sans", sans-serif;
+}
+.flex {
+     display: flex;
+     gap: 10px;
+}
+
+.flex1 {
+     display: flex;
+     gap: 10px;
+}
+
+
+ul li {
+     list-style: none;
+
+}
+
+
+ul li a {
+     color: #000000;
+     text-decoration: none;
+}
+
+.hero {
+     display: flex;
+     justify-content: space-between;
+     margin:20px 10px;
+     padding: 0px 60px;
+     
+}
+
+.hero2  img{
+       width: 200px;
+}
+
+.hero2 .flex-ul{
+     display: flex;
+     gap: 80px;
+}
+.hero2 .flex-ul li a{
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.hero2 ul li a:hover {
+     color: rgb(255, 129, 33);
+}
+
+.hero2 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #F5F5F5;
+     padding: 20px 50px;
+}
+
+
+.drop-down {
+     position: relative;
+     z-index: 1;
+}
+.drop {
+     position: absolute;
+     background-color: white;
+     width: 129px;
+    height: 210px;
+   display:none ;
+     text-align: center;
+     line-height: 33px;
+     top: 12px;
+     left: -18px;
+     z-index: -1;
+   
+}
+.drop li:hover {
+     background-color: #3F444B;
+    
+}
+
+.drop li:hover  a{
+   color: rgb(255, 129, 33);;
+}
+
+.drop  a {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.trans {
+     background-color: #F5F5F5;
+    color: transparent;
+
+}
+
+.drop-down:hover .drop {
+     display: block;
+}
+
+
+
+
+/*  */
+
+
+
+.mySlides {display:none;}
+
+.position{
+     position: relative;
+}
+
+.remake h1 {
+     color: white;
+     font-size: 45px;
+     font-weight: 600;
+}
+.remake p {
+     color: #FF8121;
+     font-size: 18px;
+     font-weight: 400;
+     color: #F5F5F5;
+}
+.remake {
+    position: absolute;
+    top: 232px;
+    line-height: 60px;
+    left: 121px;
+}
+
+.remake h1:hover {
+     color: #FF8121
+}
+
+.btn{
+     background: #FF8121;
+     padding: 0px 40px;
+     border: 1px solid #FF8121;
+     background-color: #FF8121;
+     font-size: 13px;
+     color: white;
+}
+
+.btn:hover {
+     background-color: #014073;
+     border: 1px solid #014073;
+     
+}
+
+.mySlides {
+     filter: brightness(70%);
+     height: 600px;
+     
+}
+
+
+.padding {
+     padding: 10px 50px;
+     background-color: white;
+     border: 1px solid #9FABBD;
+}
+input:focus {
+     border: 1px solid rgba(0, 128, 0, 0.892);
+     outline: none; 
+    
+}
+
+
+.second-row {
+     display: flex;
+     justify-content: space-around;
+     background-color: #F5F5F5;
+     padding: 50px 50px;
+}
+
+.btn-sear {
+     background-color: #FF8121;
+     padding: 10px 60px;
+     border: 1px solid #FF8121;
+     border-radius: 4px;
+     border: 1px solid #FF8121;
+}
+
+/* third row */
+
+.third-row h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;    
+}
+
+.third-row p{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+     
+}
+
+
+.size {
+     width: 370px;
+     height: 550px;
+     overflow: hidden;
+}
+.size img{
+ width: 100%;
+ height: 100%;
+ transform: scale(1.1);
+}
+
+.size-text h1{
+     color: white;
+     font-size: 29px;
+      font-weight: 600;
+}
+
+.size-text h1:hover {
+     color: #FF8121;
+}
+
+
+.size-text p{
+     color: white;
+     font-size: 16px;
+     font-weight: 600;
+}
+
+
+.big-box{
+     position: relative;
+}
+
+.size-text {
+     position: absolute;
+     bottom: 34px;
+     left: 28px;
+}
+
+.third-row-flex {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 60px;
+      
+}
+
+.image {
+      width: 400px;
+  
+}
+
+.flex-wrapi {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+.image4 {
+      width: 840px;
+      height: 280px;
+      overflow: hidden;
+      margin-top: 10px;
+      position: relative;
+      margin-left: 10px;
+}
+
+.image4 img{
+      width: 830px;
+       height: 500px;
+      position: absolute;
+      top: -113px;
+      
+
+}
+
+.margin {
+      margin: 50px 50px;
+}
+
+.main-{
+      position: relative;
+}
+
+.bg-img::before{ 
+      content: "";
+      background-image: url('https://wpdemo.wensolutions.com/elemento-city-tour/wp-content/uploads/sites/51/2024/06/landscape-mountain-snow-winter-cloud-mountain-range-617893-pxhere.com-min-scaled.jpg');
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.1;
+    
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+     
+}
+.bg-img {
+      position: relative;
+      padding: 20px 50px;
+}
+.col-6 h1 {
+      font-size: 40px;
+      font-weight: 600;
+      color: black;
+}
+
+.col-6 p {
+      font-size: 18px;
+      font-weight: 400;
+      color: black;
+}
+
+.left img {
+      width: 100%;
+      height: 100%;
+      transform: scale(1);
+      position: absolute;
+      
+      
+}
+
+.left {    object-fit: cover;
+      width: 600px;
+      height: 450px;
+      position: relative;
+      overflow: hidden;
+      z-index: 0;
+      padding-top: 20px;
+     
+}
+.bg-img {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.box-star p{
+      font-size: 18px;
+  font-weight: 500;
+}
+
+.box-star h1 {
+      color: #FF8121;
+}
+
+.box-star {
+      width: 160px;
+      height: 150px;
+      text-align: center;
+      box-shadow:1px 2px 6px -1px black;
+      background-color: #F2F5FA;
+      
+}
+
+.box-flex {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+     
+}
+
+.btn-learn {
+      background-color: #FF8121;
+      padding: 10px 20px;
+      border: 1px solid #FF8121;
+      color: white;
+      margin-top: 20px;
+}
+.btn-learn:hover {
+     background-color: #014073; 
+     border: 1px solid #014073;
+}
+
+.fifth-row  h1{
+      font-size: 40px;
+      font-weight: 600;
+      color: black;
+}
+.fifth-row p {
+      font-size: 18px;
+      font-weight: 400;
+      color: black;
+}
+
+.card {
+      width: 340px;
+      height: 362px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+      text-align: center;
+      
+}
+.card img {
+      width: 300px;
+      height: 200px;
+      padding-top: 10px;
+}
+
+.card-fl {
+      display: flex;
+      font-size: 22px;
+      color: black;
+      align-items: center;
+      gap: 20px;
+      font-weight: bold;
+      padding: 20px 10px 0px 10px ;
+      
+
+}
+
+.card-fl:hover {
+      color: #FF8121;
+}
+.card-fl li a{
+      font-size: 18px;
+      font-weight: 400;
+      color: red;
+}
+
+.card-fl h3 {
+      font-size: 22px;
+      font-weight:600;
+}
+.hawa{
+     display: flex;
+     gap: 10px;
+}
+.hawa2{
+     display: flex;
+     gap: 8px;
+     color:#FF8121 ;
+}
+.equ {
+      font-weight: bold;
+}
+
+.card2-fl {
+      justify-content: space-between;
+      display: flex;
+      padding: 10px 10px;
+}
+
+.june {
+      color: #565656;
+}
+
+.col-card {
+      display: flex;
+      justify-content: space-between;
+     padding-top: 50px;
+}
+
+.fifth-row-padding {
+      padding-top:10px;
+      padding: 10px 50px;
+}
+
+.red {
+      background-color: red;
+      font-size: 12px;
+      color: #F5F5F5;
+      padding: 15px 20px;
+      position: absolute;
+      bottom: 311px;
+      left: 0;
+}
+.feri-rel {
+     position: relative;
+
+}
+
+/* 6throw */
+
+.col-6th {
+      text-align: center;
+
+}
+.col-6th h1 {
+     font-size: 40px;
+     font-weight: 600;
+}
+
+.col-6th p {
+     font-size: 18px;
+     font-weight: 400;
+}
+
+.xero {
+      width: 200px;
+}
+
+
+
+.swiper {
+     width: 100%;
+     height: 100%;
+   }
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+
+   .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+
+
+   /* 7th row */
+   .wrapper img {
+      width:600px;
+      height: 300px;
+      filter: brightness(60%);
+   }
+
+   .wrapper {
+     position: relative;
+   }
+   .wrapper-flex {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+   }
+
+   .wrapper-text {
+     position: absolute;
+     top: 67px;
+     left: 67px;
+   }
+   .wrapper-text p{
+      color: #FF8121;
+      font-size: 20px;
+      font-weight: 600;
+
+   }
+   .wrapper-text h1 {
+      font-size: 30px;
+      font-weight: 600;
+      color: white;
+   }
+
+   .btn-exp {
+      background-color: #FF8121;
+     padding: 10px 30px;
+     color: white;
+    border: 1px solid #FF8121;
+   }
+   .btn-exp:hover {
+      background-color: #014073;
+      border: 1px solid #014073;
+
+   }
+
+   .row-6th{
+      margin: 50px 90px;
+   }
+
+   .eight-row h1{
+       font-size: 40px;
+       color: black;
+       font-weight: 600;
+   }
+.eight-row p {
+     font-size: 18px;
+     color: black;
+     font-weight: 400;
+}
+
+.eight-row {
+      text-align: center;
+      padding-top: 60px;
+}
+
+/* 9throw */
+
+.slider-ul img {
+       border-radius: 50%;
+       width: 50px;
+       height: 50px;
+}
+.slider-ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+     padding: 10px;
+     padding-top: 40px;
+     gap: 30px;
+}
+.slider-ul p {
+      font-size: 16px;
+      font-weight: 400;
+      color:rgb(26, 40, 47);
+}
+.swiper-slide h1 {
+      font-size: 21px;
+       font-weight: 400;
+       color:rgb(122, 122, 122) ;
+       font-style: italic;
+       line-height: 40px;
+}
+.CEO{
+      color:rgb(110, 193, 228);
+}
+
+.slider-width {
+      background-color: #F9FAFA;
+      width: 310px;
+      text-align: center;
+      padding: 10px;
+}
+
+
+.swiper-pagination  {
+     margin-top: 30px;
+}
+
+.nine-row {
+      margin: 50px 50px;
+}
+
+/* 10 row */
+
+.row-10 {
+      display: flex;
+      gap: 60px;
+      margin: 0px 50px;
+      padding-top: 110px;
+
+}
+.col1img {
+     width: 100%;
+}
+
+/* footer */
+
+.footer-row h1{
+ font-size: 30px;
+ font-weight: 600;
+ color: #000000;
+}
+
+.footer-row p{
+      font-size: 16px;
+      font-weight: 400;
+      word-spacing: 2px;
+}
+.footer-row1 {
+      display: flex;
+     gap: 110px;
+     background-color: #fffcf978;
+    
+}
+.footer-row1 ul li{
+     padding: 0;
+     margin: 0;
+}
+.f-span {
+      font-size: 16px;
+      font-weight: 700;
+}
+
+.ficon p {
+      font-size: 22px;
+      font-weight: 400;
+}
+
+.ficon {
+      display: flex;
+      gap: 30px;
+      padding: 23px 10px;
+      line-height: 30px;
+}
+.agency li a{
+     color: rgb(84, 89, 95);
+     font-size: 16px;
+     font-weight: 400;
+}
+.agency {
+      line-height: 30px;
+}
+
+
+
+.our {
+     font-size: 20px;
+     font-weight: 600;
+     color: #000000;
+}
+
+.col-3{
+      width: 300px;
+}
+.col-3-2{
+      width: 600px;
+}
+
+footer {
+     padding-top:60px ;
+     
+}
+
+
+
+.row-last {
+      background-color: #FF8121;
+      padding: 20px ;
+}
+
+.col-last {
+     display: flex;
+     justify-content: space-between;
+}
+.col-last p{
+      color: white;
+}
+
+.body {
+      margin: 10px 70px;
+      padding: 50px 19px;
+}
+.footer-row1 {
+     padding: 20px;
+}
+
+.background-slide-show::before {
+     content: "";
+      background-image: url("https://wpdemo.wensolutions.com/elemento-city-tour/wp-content/uploads/sites/51/2024/06/ocean-horizon-architecture-sky-sun-sunset-744301-pxhere.com_.jpg");
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+}
+
+.background-slide-show{
+      position: relative;
+}
+
+.main-op {
+      display: none;
+      position: relative;
+}
+
+
+@media screen and (max-width: 700px) {
+     .hero2,.hero {
+           display: none;
+           
+     }
+    
+   
+     .remake h1 {
+           font-size: 20px;
+     }
+     .remake p {
+           font-size: 18px;
+           text-align: center;
+           width: 400px;
+     }
+     .remake {
+           display: flex;
+           flex-wrap: wrap;
+     }
+     .btn {
+          position: absolute;
+          bottom: -75px;
+          margin: auto;
+     }
+    .none {
+      display: none;
+    }
+    .second-row{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+  .padding{
+     padding:  11px;
+     margin: 20px;
+
+  }
+
+  .third-row-flex {
+     flex-wrap: wrap;
+     justify-content: center;
+  }
+  .third-row img {
+      width: 100%;
+  }
+  .image {
+      width: 100%;
+  }
+
+  .size {
+      width: 100%;
+      height: 100%;
+  }
+ 
+  .image4 {
+      display: none;
+      z-index: -1;
+  }
+  .size-text {
+      z-index: 2;
+  }
+  .main-op {
+      display: block;
+      padding: 10px 0px;
+  }
+  .main-{
+      padding: 10px 0px;
+  }
+
+  .mySlides {
+      height: 100%;
+  }
+
+  .remake {
+      line-height: 40px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      top: 0;
+      left: 10px;
+  
+}
+
+
+.oz {
+     display: none
+}
+
+.bg-img {
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.col-6 h1 {
+     font-size: 29px;
+     font-weight: 600;
+     text-align: center;
+     color: black;
+ }
+
+ .col-6 p {
+     text-align: center;
+     font-size: 15px;
+     font-weight: 400;
+     color: black;
+ }
+
+
+ .box-flex {
+      flex-wrap: wrap;
+ }
+ .box-star  {width: 100%;
+ height: 130px;
+margin-top: 30px;
+}
+
+
+
+.fifth-row h1 {
+      font-size: 29px;
+}
+.fifth-row p {
+      font-size: 15px;
+}
+
+.col-card {
+      flex-wrap: wrap;
+}
+
+.card {
+      margin-top: 20px;
+      width: 100%;
+      height: 100%;
+}
+.card img {
+      width: 90%;
+}
+
+.col-6th h1{
+     font-size: 29px;    
+}
+
+.col-6th p {
+      font-size: 15px;
+}
+
+.wrapper-flex {
+      flex-wrap: wrap;
+}
+.wrapper h1 {
+      color: white;
+      font-size: 29px;
+      text-align: center;
+}
+.wrapper p {
+      font-size: 15px;
+      color: white;
+      text-align: start;
+      
+}
+
+.wrapper {
+      padding-top: 30px;
+}
+
+.col1img
+ {
+      width: 80%;
+      text-align: center;
+ }
+ 
+
+ .row-10{
+      flex-wrap: wrap;
+      justify-content: center;
+ }
+
+ .footer-row1{
+      flex-wrap: wrap;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.651);
+     
+ }
+ .body {
+      margin: 0px;
+ }
+ 
+
+}
+
+
+
+.hero3 img {
+     width: 120px;
+
+}
+
+.hero h1 {
+     color: #F4F4F4;
+     font-size: 31px;
+}
+
+.hero3 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+}
+
+@media screen and (min-width:992px) {
+     
+     .hero3{
+           display: none;
+     }
+}
+
+/* tablest device  */
+
+@media screen and (min-width: 700px) and (max-width: 992px) {
+
+     .hero2,.hero {
+          display: none;
+          
+    }
+
+  
+    .remake h1 {
+          font-size: 25px;
+    }
+    .remake p {
+          font-size: 18px;
+          
+          width: 400px;
+    }
+  
+.remake {
+      top: 60px;
+      left: 30px;
+}
+  
+    .btn {
+         position: absolute;
+         bottom: -75px;
+         margin: auto;
+    }
+   .none {
+     display: none;
+   }
+   .second-row{
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+
+ .padding{
+    padding:  11px;
+    margin: 20px;
+
+ }
+
+ .third-row-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .third-row img {
+     width: 100%;
+ }
+ .image {
+     width: 100%;
+ }
+
+ .size {
+     width: 100%;
+     height: 100%;
+ }
+
+ .image4 {
+     display: none;
+     z-index: -1;
+ }
+ .size-text {
+     z-index: 2;
+ }
+ .main-op {
+     display: block;
+     padding: 10px 0px;
+ }
+ .main-{
+     padding: 10px 0px;
+ }
+
+ .mySlides {
+     height: 100%;
+ }
+
+
+
+
+.wrapper-flex {
+      justify-content: center;
+}
+.oz {
+    display: none
+}
+
+.bg-img {
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.col-6 h1 {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+.col-6 p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+
+.box-flex {
+     flex-wrap: wrap;
+}
+.box-star  {width: 100%;
+height: 130px;
+margin-top: 30px;
+}
+
+
+
+.fifth-row h1 {
+     font-size: 29px;
+}
+.fifth-row p {
+     font-size: 15px;
+}
+
+.col-card {
+     flex-wrap: wrap;
+}
+
+.card {
+     margin-top: 20px;
+     width: 100%;
+     height: 100%;
+}
+.card img {
+     width: 90%;
+}
+
+.col-6th h1{
+    font-size: 29px;    
+}
+
+.col-6th p {
+     font-size: 15px;
+}
+
+.wrapper-flex {
+     flex-wrap: wrap;
+}
+.wrapper h1 {
+     color: white;
+     font-size: 29px;
+     text-align: center;
+}
+.wrapper p {
+     font-size: 15px;
+     color: white;
+     text-align: start;
+     
+}
+
+.wrapper {
+     padding-top: 30px;
+}
+
+.col1img
+{
+     width: 80%;
+     text-align: center;
+}
+
+
+.row-10{
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.footer-row1{
+     flex-wrap: wrap;
+     width: 100%;
+     background-color: rgba(255, 255, 255, 0.651);
+     justify-content: start;
+    
+}
+.body {
+     margin: 0px;
+}
+
+
+}
+
+
+@media screen and (min-width:992px) {
+ 
+     
+     .second-row {
+           justify-content: center;
+           gap: 10px;
+     }
+     .third-row {
+          text-align: center;
+     }
+    
+     .third-row-flex {
+           justify-content: center;
+           gap: 10px;
+     }
+
+     .flex-wrapi { 
+          gap: 40px;
+     }
+
+     .bg-img {
+           justify-content: center;
+           gap: 20px;
+     }
+     .fifth-row-padding {
+           text-align: center;
+     }
+     .col-card {
+           justify-content: center;
+           gap: 40px;
+     }
+     .wrapper-flex {
+           justify-content: center;
+           gap: 20px;
+     }
+     .row-10 {
+           justify-content: center;
+           gap: 0;
+     }
+     .footer-row1 {
+           justify-content: center;
+           gap:  0;
+     }
+     .remake {
+          left: 2042px;
+     }
+     .flex-wrapi {
+           width: 17%;
+     }
+     .image4 {
+          height: 254px;
+     }
+
+     .swiper-wrapper{
+           display: flex;
+           justify-content: center;
+     }
+     .nine-row {
+          margin: 0px 1062px;
+          padding: 0px 819px;
+          margin-left: 1165px;
+
+     }
+     .row-6th {
+          margin: 16px 1971px;
+     }
+     .row-10 {
+          display: flex;
+       
+          margin: 8px 148px;
+          padding-top: 110px;
+          padding: 110px 1800px;
+     }
+
+     .hero2 {
+          margin: 0px 1909px;
+     }
+     .hero {
+          margin: 10px 1909px;
+     }
+
+     .padding {
+          padding: 19px 65px;
+     }
+     .btn-sear{
+          padding: 19px 65px;
+     }
+  .col-6th {
+      padding: 30px 0px;
+  }
+  .box-flex {
+     display: flex;
+     gap: 20px;
+     margin-top: 20px;
+ }
+
+ .body {
+     margin: 10px 1833px;
+     padding: 50px 64px;
+ }
+}
